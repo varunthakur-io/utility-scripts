@@ -1,0 +1,10 @@
+{
+  "name": "utility-scripts",
+  "version": "1.0.0",
+  "bin": {
+    "ptree": "tree.js"
+  },
+  "dependencies": {
+    "@types/node": "^24.10.2"
+  }
+}
