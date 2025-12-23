@@ -3,7 +3,9 @@
 const fs = require("fs");
 const path = require("path");
 
-const IGNORED_DIRS = new Set(["node_modules"]);
+const IGNORED_DIRS = new Set([
+  "node_modules, .git, dist, build, coverage, .next, .turbo, out, tmp, logs",
+]);
 
 function printTree(rootPath, prefix = "") {
   let entries;
